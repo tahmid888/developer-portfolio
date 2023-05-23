@@ -1,15 +1,14 @@
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* header and nav */
 .header {
-    background: #FFF8F3;
+    background: #fff8f3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-
 }
 
 nav {
@@ -34,11 +33,11 @@ nav ul {
 }
 
 .small-r {
-    color: #FD6E0A;
+    color: #fd6e0a;
 }
 
 .btn-hire {
-    color: #FFFFFF;
+    color: #ffffff;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -46,7 +45,7 @@ nav ul {
     padding: 15px 30px;
     height: 64px;
     border-radius: 5px;
-    background-color: #FD6E0A;
+    background-color: #fd6e0a;
 }
 
 /* Banner  */
@@ -84,7 +83,7 @@ main {
 /* section part */
 .about {
     margin-top: 60px;
-    background: #FFF8F3;
+    background: #fff8f3;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
@@ -96,7 +95,6 @@ main {
     font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
-
 }
 
 .secound-para {
@@ -105,24 +103,83 @@ main {
     font-weight: 400;
     text-align: center;
     margin-bottom: 30px;
-
-
 }
 
-     /* about section */
-.about-info-contain{
+/* about section */
+.about-info-contain {
     display: flex;
     justify-content: space-around;
-    
 }
-.info-title{
+
+.info-title {
     color: #757575;
     font-weight: 400;
-font-size: 20px;
+    font-size: 20px;
 }
-.des{
+
+.des {
     color: #474747;
     font-weight: 700;
-font-size: 20px;
+    font-size: 20px;
+}
 
+/* what i do section */
+
+.what {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.third-para {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.what-i-do {
+    margin-top: 130px;
+}
+
+/* skill section */
+.skill {
+    display: flex;
+    gap: 25px;
+}
+
+.skill-set {
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.short-des {
+    color: #181818;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.long-des {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* resume section */
+.summary {
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
 }
