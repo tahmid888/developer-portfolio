@@ -14,7 +14,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
@@ -49,6 +49,7 @@ nav ul {
 }
 
 /* Banner  */
+
 .banner {
     margin: 50px 200px;
     display: flex;
@@ -184,49 +185,59 @@ main {
     color: #181818;
     padding-bottom: 50px;
 }
-.resume-contant{
+
+.resume-contant {
     display: flex;
     gap: 30px;
 }
-.resume-item{
-margin-top: 50px;
-margin-bottom: 50px;
+
+.resume-item {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.resume .title{
+
+.resume .title {
     color: #474747;
     font-weight: 700;
-font-size: 30px;
-margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
-.resume .sub-title{
+
+.resume .sub-title {
     color: #474747;
     font-weight: 600;
-font-size: 20px;
-margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
-.resume .fourth-para{
+
+.resume .fourth-para {
     color: #757575;
     font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
 }
-.btn-download-cv
-{
+
+.btn-download-cv {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 
 }
+
 /* Contact section */
-.contact{
+.contact {
     display: flex;
     gap: 110px;
     background: #FFF8F3;
     padding: 130px 200px;
 }
-.contact .section-title{
+
+.contact .section-title {
     text-align: left;
 }
-.contact input[type="text"],input[type="email"],textarea{
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
     border: 0;
     width: 100%;
     padding-left: 30px;
@@ -234,9 +245,11 @@ font-size: 16px;
     padding-bottom: 18px;
     margin-bottom: 24px;
 }
-.contact a{
+
+.contact a {
     text-decoration: none;
 }
-.contact .five-para{
+
+.contact .five-para {
     padding-bottom: 20px;
 }
